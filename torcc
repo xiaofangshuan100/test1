@@ -1,0 +1,17 @@
+SocksPort 9050
+SocksListenAddress 0.0.0.0
+
+# Setup DNS server
+DNSPort 5353
+DNSListenAddress 0.0.0.0
+
+# Setup Tor Transparent Routing
+TransPort 9040
+TransListenAddress 0.0.0.0
+VirtualAddrNetworkIPv4 10.192.0.0/10
+AutomapHostsOnResolve 1
+# HiddenServiceDir /app/hidden/http
+# HiddenServicePort 80 127.0.0.1:80
+
+# HiddenServiceDir /app/hidden/ssh
+# HiddenServicePort 22 127.0.0.1:22
